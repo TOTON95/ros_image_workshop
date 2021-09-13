@@ -28,5 +28,14 @@ Complementary PDF slides are included for better code explanation
 
 ## Instructions
 
-This workshop assumes that you already have 
+*This workshop assumes that you already have a ROS environment installed on your system, if not please go to the [official documentation](http://wiki.ros.org/ROS/Installation) and follow the instructions. Then, come back to this repository.*
+
+
+
+Before starting, we have to install a few things:
+
+```bash
+sudo apt-get update
+sudo apt-get install ros-$ROS_DISTRO-usb-cam
+```
 
