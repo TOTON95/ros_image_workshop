@@ -22,9 +22,11 @@ This workshop has been designed for ROS Kinetic, but is expected to work in:
 - Melodic
 - Noetic
 
-The goal of this repository is to make the code as simple, organized, self-documented as possible. Complementary PDF slides are included for better code explanation
+The goal of this repository is to make the code as simple, organized, self-documented as possible. 
+
+Complementary PDF slides are included for better code explanation
 
 ## Instructions
 
-
+This workshop assumes that you already have 
 
