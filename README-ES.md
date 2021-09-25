@@ -1,4 +1,4 @@
-[🇪🇸](/README-ES.md "Spanish")
+🇪🇸
 
 # ros_image_workshop
 
@@ -17,10 +17,7 @@ Además, este taller es diseñado para aplicar procesamiento de imagen y la crea
 
 Finalmente, la distribución de las imágenes es explorada para proveer diferentes etapas de procesamiento para el entorno de ROS.
 
-Este taller ha sido diseñado para ROS Kinetic, pero es espera que funcione en:
-
-- Melodic
-- Noetic
+Este taller ha sido diseñado para ROS Noetic, pero es espera que funcione en siempre y cuando se use OpenCV 4
 
 La meta de este repositorio es hacer el código lo más simple, organizado, auto-documentado como sea posible.
 
@@ -37,5 +34,6 @@ Antes de empezar, tenemos que instalar algunas cosas:
 ```bash
 sudo apt-get update
 sudo apt-get install ros-$ROS_DISTRO-usb-cam
+sudo apt-get install ros-$ROS_DISTRO-usb-cam-controllers
 ```
 

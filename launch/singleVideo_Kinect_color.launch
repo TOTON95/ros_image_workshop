@@ -1,0 +1,4 @@
+<launch>
+  <param name="cam_1" type="string" value="/camera/color/image_raw"/>
+  <node pkg="ros_image_workshop" type="simple_camera" name="cam_1" output="screen" required="true"/>
+</launch>

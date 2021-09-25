@@ -1,0 +1,4 @@
+<launch>
+  <param name="cam_1" type="string" value="/gopro_5/gopro_out"/>
+  <node pkg="ros_image_workshop" type="simple_camera" name="cam_1" output="screen" required="true"/>
+</launch>

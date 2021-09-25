@@ -11,7 +11,7 @@
     <param name="io_method" value="mmap"/>
   </node>
   <node pkg="usb_cam" type="usb_cam_node" name="usb_cam_2" output="screen" required="true">
-    <param name="video_device" value="/dev/video1" />
+    <param name="video_device" value="/dev/video3" />
     <param name="image_width" value="640" />
     <param name="image_height" value="480" />
     <param name="pixel_format" value="yuyv" />

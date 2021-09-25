@@ -9,7 +9,7 @@ ROS workshop for image acquisition, processing and distribution
 This workshop pretends to teach new users to extract the images from different sources such as:
 
 * Integrated Web Cams
-* USB Web Cams
+* USB Web Cams (Logitech C920)
 * Color/Depth Cameras such as Kinect
 * WiFi cameras (IP Cameras, [GoPro](https://github.com/TOTON95/ros-gopro-driver))
 

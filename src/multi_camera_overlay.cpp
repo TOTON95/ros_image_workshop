@@ -151,12 +151,12 @@ class multiVideo
 	{
 		if(!overlay_1.empty())
 		{
-			cv::line(overlay_1, cv::Point(0,0),cv::Point(640,480),cv::Scalar(0,255,0),2,CV_AA);
-			cv::line(overlay_1, cv::Point(640,0),cv::Point(0,480),cv::Scalar(0,255,0),2,CV_AA);
+			cv::line(overlay_1, cv::Point(0,0),cv::Point(640,480),cv::Scalar(0,255,0),2,cv::LINE_AA);
+			cv::line(overlay_1, cv::Point(640,0),cv::Point(0,480),cv::Scalar(0,255,0),2,cv::LINE_AA);
 		}
 		if(!overlay_2.empty())
 		{
-			cv::circle(overlay_2,cv::Point(320,240),5,cv::Scalar(0,0,255),-1,CV_AA);
+			cv::circle(overlay_2,cv::Point(320,240),5,cv::Scalar(0,0,255),-1,cv::LINE_AA);
 			cv::putText(overlay_2,"TEST", cv::Point(440,400),cv::FONT_HERSHEY_SIMPLEX,2.0,cv::Scalar(0,255,0),2);
 		}
 	}
